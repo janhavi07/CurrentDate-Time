@@ -9,8 +9,7 @@ public class CurrentDateTime {
         LocalDateTime current = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
         String formatted = current.format(formatter);
-        System.out.println("Current Date and Time is: " + formatted);
-        System.out.printf("Hey this is Janhavi Parte");
+        System.out.println("Hey Janhavi Parte , this is the Current Date and Time : " + formatted);
         BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/janhavi.parte/Desktop/CurrentDateTimeFile.txt"));
         writer.write(formatted);
         writer.close();
