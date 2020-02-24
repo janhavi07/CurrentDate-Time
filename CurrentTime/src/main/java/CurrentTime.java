@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 
-public class CurrentDateTime {
+public class CurrentTime {
     public static void main(String[] args) throws IOException {
         LocalDateTime current = LocalDateTime.now();
         Calendar now = Calendar.getInstance();
